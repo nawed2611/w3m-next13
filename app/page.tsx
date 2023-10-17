@@ -10,7 +10,6 @@ export default function Home() {
 	const [isConnectHighlighted, setIsConnectHighlighted] = useState(false);
 
 	const closeAll = () => {
-		console.log("clicked");
 		setIsNetworkSwitchHighlighted(false);
 		setIsConnectHighlighted(false);
 	};
@@ -83,8 +82,6 @@ export default function Home() {
 									Click{" "}
 									<span
 										onClick={() => {
-											console.log("clicked");
-
 											setIsConnectHighlighted(
 												!isConnectHighlighted
 											);
@@ -103,7 +100,6 @@ export default function Home() {
 									Click{" "}
 									<span
 										onClick={() => {
-											console.log("clicked");
 											setIsNetworkSwitchHighlighted(
 												!isNetworkSwitchHighlighted
 											);
